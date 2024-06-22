@@ -1,0 +1,22 @@
+1-usestate
+using the usestate in react js 
+const[state,value_state]=usestate(value)
+value =string object constant  array etc..
+2=useueffect 
+import {useeffect} from"react"
+useeffect(arrowfunction,dependancy);
+dependancy=the somthing in function change every time and render the all things in useeffect once in browser 
+3-usecontext:use it to arrow a variavble or data from component 
+import {usecontext} from "react ";
+---decleare the variable in js :const usecontext=createcontext()
+there is two things in usecontext:
+<usecontext.provider value={}> </usecontext>
+<Context.Consumer>
+{( the value of the usecontext)=>{
+
+    return ()//shoud return things 
+}}
+</Context.Consumer>
+-----you can use import {usecontext} from "react"
+and in consumer 
+you can use const user=usecontext(adding the context you create it )
